@@ -234,6 +234,7 @@ Rails.application.routes.draw do
     end
 
     resources :comments
+    resources :events
     resources :photo_manager
 
     resources :albums do
